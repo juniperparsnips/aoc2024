@@ -1,3 +1,9 @@
+mod lib;
+
+use lib::total_distance;
+
 fn main() {
-    println!("Hello, world!");
+    let input = include_str!("../../assets/01-1");
+    let distance = total_distance(input);
+    println!("{distance}");
 }
