@@ -1,6 +1,6 @@
-mod lib;
+mod util;
 
-use lib::total_distance;
+use util::total_distance;
 
 fn main() {
     let input = include_str!("../../assets/01-1");

@@ -1,6 +1,6 @@
-mod lib;
+mod util;
 
-use lib::similarity_score;
+use util::similarity_score;
 
 fn main() {
     let input = include_str!("../../assets/01-1");
