@@ -1,0 +1,16 @@
+[package]
+name = "aoc2024-02"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "02-1"
+path = "pt1.rs"
+
+# [[bin]]
+# name = "01-2"
+# path = "pt2.rs"
