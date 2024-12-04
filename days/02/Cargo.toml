@@ -11,6 +11,6 @@ edition = "2021"
 name = "02-1"
 path = "pt1.rs"
 
-# [[bin]]
-# name = "01-2"
-# path = "pt2.rs"
+[[bin]]
+name = "02-2"
+path = "pt2.rs"
